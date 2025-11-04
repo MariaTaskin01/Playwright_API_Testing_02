@@ -1,0 +1,11 @@
+# Node dependencies
+node_modules/
+
+# Playwright reports
+playwright-report/
+
+# Ignore Allure raw results
+allure-results/
+
+# Keep only HTML report
+!allure-report/
