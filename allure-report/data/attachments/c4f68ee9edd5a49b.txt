@@ -1,0 +1,32 @@
+=== POST API ===
+{
+  bookingid: 1584,
+  booking: {
+    firstname: 'testers talk cypress',
+    lastname: 'testers talk performance testing',
+    totalprice: 1000,
+    depositpaid: true,
+    bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+    additionalneeds: 'noodles'
+  }
+}
+=== GET API ===
+{
+  firstname: 'testers talk cypress',
+  lastname: 'testers talk performance testing',
+  totalprice: 1000,
+  depositpaid: true,
+  bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+  additionalneeds: 'noodles'
+}
+Token No is : 153ef2a73085b8a
+=== PUT API ===
+{
+  firstname: 'Testers Talk',
+  lastname: 'testers talk performance testing',
+  totalprice: 1000,
+  depositpaid: true,
+  bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+  additionalneeds: 'noodles'
+}
+=== DELETE API ===
