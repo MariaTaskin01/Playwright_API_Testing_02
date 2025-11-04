@@ -1,0 +1,31 @@
+=== POST API ===
+{
+  bookingid: 2996,
+  booking: {
+    firstname: 'testers talk cypress',
+    lastname: 'testers talk performance testing',
+    totalprice: 1000,
+    depositpaid: true,
+    bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+    additionalneeds: 'noodles'
+  }
+}
+=== GET API ===
+{
+  firstname: 'testers talk cypress',
+  lastname: 'testers talk performance testing',
+  totalprice: 1000,
+  depositpaid: true,
+  bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+  additionalneeds: 'noodles'
+}
+Token No is : fcb021cc32b72e9
+=== PUT API ===
+{
+  firstname: 'Specflow',
+  lastname: 'Selenium C#',
+  totalprice: 111,
+  depositpaid: true,
+  bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+  additionalneeds: 'super bowls'
+}
