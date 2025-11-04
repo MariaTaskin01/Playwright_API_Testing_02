@@ -4,6 +4,8 @@ node_modules/
 # Playwright reports
 playwright-report/
 
-# Allure generated files
+# Ignore Allure raw results
 allure-results/
-allure-report/
+
+# Keep only HTML report
+!allure-report/
